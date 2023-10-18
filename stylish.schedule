@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>My Busy Day Schedule</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        .important {
+            font-weight: bold;
+        }
+        
+        #morning {
+            background-color: #ffe6e6;
+        }
+        
+        #afternoon {
+            background-color: #e6f2ff;
+        }
+        
+        #evening {
+            background-color: #e6ffe6;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Busy Day Schedule</h1>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Event</th>
+        </tr>
+        <tr id="morning">
+            <td>8:00 AM</td>
+            <td class="important">Breakfast</td>
+        </tr>
+        <tr id="morning">
+            <td>9:00 AM</td>
+            <td>Schoolwork</td>
+        </tr>
+        <tr id="morning">
+            <td>11:00 AM</td>
+            <td>Lunch break</td>
+        </tr>
+        <tr id="afternoon">
+            <td>1:00 PM</td>
+            <td>Schoolwork</td>
+        </tr>
+        <tr id="afternoon">
+            <td>2:00 PM</td>
+            <td>Excersice the dog</td>
+        </tr>
+        <tr id="afternoon">
+            <td>3:00 PM</td>
+            <td>Schoolwork</td>
+        </tr>
+        <tr id="evening">
+            <td>6:00 PM</td>
+            <td>Dinner with Grandma</td>
+        </tr>
+    </table>
+</body>
+</html>
